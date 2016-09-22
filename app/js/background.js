@@ -69,7 +69,7 @@ var responseRules = [{
 }, {
   'data': {
     'name': 'Access-Control-Allow-Methods',
-    'value': 'POST, GET, OPTIONS, PUT, DELETE'
+    'value': 'POST, GET, OPTIONS, PUT, DELETE, PATCH'
   },
   'mandatory': true,
   'fn': null
@@ -77,7 +77,7 @@ var responseRules = [{
   {
     'data': {
       'name': 'Allow',
-      'value': 'POST, GET, OPTIONS, PUT, DELETE'
+      'value': 'POST, GET, OPTIONS, PUT, DELETE, PATCH'
     },
     'mandatory': true,
     'fn': null
